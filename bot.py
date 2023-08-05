@@ -23,7 +23,7 @@ class Agent:
                     )
         self.answeredPosts=[]
         self.model:tf.keras.Model
-        self.model=tf.keras.models.load_model("saved/model5")
+        self.model=tf.keras.models.load_model("saved/model")
         self.model.summary()
     def getUnreadMentions(self):
         for notification in self.client.inbox.unread(limit=None):

@@ -129,5 +129,5 @@ ae.compile(
 )
 ae.summary()
 ae.fit(data_gen,steps_per_epoch=394, epochs=20,use_multiprocessing=True)
-ae.save("saved/model5")
+ae.save("saved/model")
 print("Model saved")
