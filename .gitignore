@@ -1,0 +1,5 @@
+memes/
+saved/
+__pycache__/
+watermarked/
+*.env
